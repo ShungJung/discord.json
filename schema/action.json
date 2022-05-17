@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Discord Bot",
+    "description": "Schema for bot.json",
+    "type": "object",
+    "properties": {
+        "general": {
+            "$ref": "./general.json"
+        }
+    },
+    "required": ["general"]
+}
